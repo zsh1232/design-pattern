@@ -7,7 +7,7 @@ package factory.simpleFactory;
  */
 public class ShapeFactory {
 
-    public static final String TAG = "ShapeFactory";
+    public static final String TAG = "factory.simpleFactory.ShapeFactory";
 
     public static Shape getShape(String type) {
         Shape shape = null;

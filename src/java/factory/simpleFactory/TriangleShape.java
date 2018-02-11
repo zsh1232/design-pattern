@@ -7,11 +7,11 @@ package factory.simpleFactory;
  */
 public class TriangleShape implements Shape{
     public TriangleShape() {
-        System.out.println(  "TriangleShape: created");
+        System.out.println(  "factory.simpleFactory.TriangleShape: created");
     }
 
     @Override
     public void draw() {
-        System.out.println(  "draw: TriangleShape");
+        System.out.println(  "draw: factory.simpleFactory.TriangleShape");
     }
 }

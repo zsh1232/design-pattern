@@ -8,11 +8,11 @@ package factory.simpleFactory;
 public class CircleShape implements Shape {
 
     public CircleShape() {
-        System.out.println(  "CircleShape: created");
+        System.out.println(  "factory.simpleFactory.CircleShape: created");
     }
 
     @Override
     public void draw() {
-        System.out.println("draw: CircleShape");
+        System.out.println("draw: factory.simpleFactory.CircleShape");
     }
 }

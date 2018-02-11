@@ -7,11 +7,11 @@ package factory.simpleFactory;
  */
 public class RectShape implements Shape {
     public RectShape() {
-        System.out.println(  "RectShape: created");
+        System.out.println(  "factory.simpleFactory.RectShape: created");
     }
 
     @Override
     public void draw() {
-        System.out.println(  "draw: RectShape");
+        System.out.println(  "draw: factory.simpleFactory.RectShape");
     }
 }
